@@ -7,7 +7,7 @@
     "watch": "nodemon -e ts -w ./src -x npm run watch:serve",
     "watch:serve": "ts-node src/server.ts",
     "serve": "node dist/server.js",
-    "build": "tsc"
+    "build": "tsc && cp -r ./src/data ./dist"
   },
   "author": "",
   "dependencies": {

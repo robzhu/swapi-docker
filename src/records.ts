@@ -33,9 +33,9 @@ function fixUrls(path: string) {
   return records;
 }
 
-export const people = fixUrls("../data/people.json") as Array<Person>;
-export const planets = fixUrls("../data/planets.json") as Array<Planet>;
-export const films = fixUrls("../data/films.json") as Array<Film>;
-export const vehicles = fixUrls("../data/vehicles.json") as Array<Vehicle>;
-export const starships = fixUrls("../data/starships.json") as Array<Starship>;
-export const species = fixUrls("../data/species.json") as Array<Species>;
+export const people = fixUrls("./data/people.json") as Array<Person>;
+export const planets = fixUrls("./data/planets.json") as Array<Planet>;
+export const films = fixUrls("./data/films.json") as Array<Film>;
+export const vehicles = fixUrls("./data/vehicles.json") as Array<Vehicle>;
+export const starships = fixUrls("./data/starships.json") as Array<Starship>;
+export const species = fixUrls("./data/species.json") as Array<Species>;
